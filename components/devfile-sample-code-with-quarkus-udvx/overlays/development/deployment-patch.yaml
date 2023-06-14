@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-udvx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/devfile-sample-code-with-quarkus-1/devfile-sample-code-with-quarkus-udvx@sha256:1e17dfedb7056b34479d9bb33fd15d18d03559b3266314841b897dc2a5d450b6
+        name: my-java-quarkus
+        resources: {}
+status: {}
