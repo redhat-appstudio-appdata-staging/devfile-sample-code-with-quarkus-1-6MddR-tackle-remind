@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-code-with-quarkus-udvx
     app.kubernetes.io/part-of: devfile-sample-code-with-quarkus-1
-  name: devfile-sample-code-with-tbvn
+  name: devfile-sample-code-with-bnv1
 spec:
   path: /
   port:
